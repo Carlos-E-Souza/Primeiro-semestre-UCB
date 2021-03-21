@@ -1,0 +1,16 @@
+algoritmo Horas;
+// Síntese
+//  Objetivo:  converter horas em minutos e segundos
+//  Entrada : horas
+//  Saída   : correspondente em minutos e segundos
+
+
+principal
+	// Declarações
+inteiro hora;
+	// Instruções
+escreva("Que hora você deseja converter ?" );
+leia(hora);
+escreval(hora, " horas corresponde à ", hora*60, " minutos");
+escreval(hora, " horas corresponde à ", hora*3600, " minutos");
+fimPrincipal

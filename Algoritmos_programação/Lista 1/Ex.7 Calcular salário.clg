@@ -1,0 +1,30 @@
+algoritmo Calcular_salrio;
+// Síntese
+//  Objetivo: Ler dados e calcular o salário de uma pessoa 
+//  Entrada : Dados individuais da pessoa
+//  Saída   : Salário da pessoa
+
+
+principal
+	// Declarações
+texto nome;
+texto sexo;
+inteiro num_matricula;
+inteiro horas_trabalhadas;
+inteiro pagamento_hora;
+inteiro salario;
+	// Instruções
+escreva("Nome: ");
+leia(nome);
+escreva("Sexo(M/F): ");
+leia(sexo);
+escreva("Número da matrícula: ");
+leia(num_matricula);
+escreva("Horas trabalhadas por mês: ");
+leia(horas_trabalhadas);
+escreva("Quanto recebe por hora: ");
+leia(pagamento_hora);
+salario = horas_trabalhadas*pagamento_hora;
+escreval("Nome: ", nome, " / Sexo(M/F): ", maiusculo(sexo), " / Número da matrícula: ", num_matricula, " / Horas trabalhadas: ", horas_trabalhadas, " / Pagamento por hora: ", pagamento_hora);
+escreval("Então seu salário é: R$", salario);
+fimPrincipal

@@ -1,0 +1,18 @@
+algoritmo Resto_Quociente;
+
+// Síntese
+//  Objetivo:  Fornecer o resto e o quociente de uma divisão
+//  Entrada : divisor e dividendo
+//  Saída   : resto e quociente da divisão
+
+principal
+	// Declarações
+inteiro dividendo;
+inteiro divisor;
+	// Instruções
+escreva("Qual será o dividendo? ");
+leia(dividendo);
+escreva("Qual será o divisor? ");
+leia(divisor);
+escreval("O resto é ", dividendo mod divisor, " e o quociente é: ", dividendo\divisor);
+fimPrincipal

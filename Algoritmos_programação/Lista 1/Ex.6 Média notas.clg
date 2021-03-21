@@ -1,0 +1,20 @@
+algoritmo Media_notas;
+// Síntese
+//  Objetivo: Calcular a média de duas notas com pesos diferentes
+//  Entrada : 2 notas das provas
+//  Saída   : média das notas
+
+
+principal
+	// Declarações
+real nota1;
+real nota2;
+real media;
+	// Instruções
+escreva("Qual a primeira nota? ");
+leia(nota1);
+escreva("Qual a segunda nota? ");
+leia(nota2);
+media = (nota1*3.5 + nota2*7.5) / 11;
+escreval("A média do aluno foi: ", media);
+fimPrincipal

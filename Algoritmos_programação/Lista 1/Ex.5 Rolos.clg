@@ -1,0 +1,23 @@
+algoritmo Construcao;
+// Síntese
+//  Objetivo: Calcular quantos rolos serão necessarios para a construção
+//  Entrada : Metros necessarios
+//  Saída   : Quantidade de rolos e fio avulso necessario
+
+
+principal
+	// Declarações
+inteiro rolos;
+inteiro metros;
+inteiro fio_avulso;
+	// Instruções
+escreva("Quantos metros serão necessarios na construção? ");
+leia(metros);
+se ((metros mod 50) > 0)entao
+	rolos = (metros - metros mod 50) / 50;
+	fio_avulso = metros mod 50;
+	escreval("Então serão necessarios ", rolos, " rolos de 50m e ", fio_avulso, "m de fio avulso.");
+senao
+	escreval("Então serão necessarios ", rolos, " rolos de 50m");
+fimSe
+fimPrincipal

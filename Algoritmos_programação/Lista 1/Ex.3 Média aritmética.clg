@@ -1,0 +1,23 @@
+algoritmo Media_aritmetica;
+// Síntese
+//  Objetivo:  Calcular a média aritmética de 3 números
+//  Entrada : 3 números
+//  Saída   : Média aritmética dos números
+
+
+principal
+	// Declarações
+real numero1;
+real numero2;
+real numero3;
+real media;
+	// Instruções
+escreva("Digite um número: ");
+leia(numero1);
+escreva("Digite um número: ");
+leia(numero2);
+escreva("Digite um número: ");
+leia(numero3);
+media = (numero1+numero2+numero3) / 3;
+escreval("A média aritmética dos 3 números é: ", media);
+fimPrincipal
